@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@300;400&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +8,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid rgb(17, 98, 123);
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 27px !important;
+}
+
+.btn-get-started {
+    text-decoration: none;
+    border:1px solid black;
+    padding: 8px;
+    border-radius: 9px;
+    background-color: #3498db;
+    color:#fff;
+    font-weight: 550;
+}
+
+.btn-get-started:hover {
+  background-color: lightgrey;
+}
+
+.col-md-6 {
+  position: relative;
+  top: 95px;
+}
+
+@keyframes example {
+  from {margin-top: 20px;}
+  to {margin-bottom: 20px;}
+}
+
+
+.animation {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-direction: alternate-reverse;
+}
+
+strong {
+  color: #3498db;
+}
+
+.col-md-6 h1 {
+  font-size: 40px;
+  color: #000;
+}
+
+.col-md-6 h2 {
+  font-size: 25px;
+}
+
+.dfg {
+  margin-top:-65px;
+}
+
+.dffg {
+  position: relative;
+  left: 40%;
 }
